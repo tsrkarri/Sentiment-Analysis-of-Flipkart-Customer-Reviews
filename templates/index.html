@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sentiment Analysis antar ra babu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('static/background_image.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="rounded p-4 mb-5" style="background-color: rgba(0, 0, 0); color: white; box-shadow: 0 0 30px rgba(225, 225, 225); max-width: 800px; margin: 0 auto;">
+            <h1 class="text-center"> Flipkart Reviews Sentiment Analysis Prediction</h1>
+            <h2 class="text-center">For Yonex Mavis 350 Shuttle Racket 🏸</h2> <br>
+            <form action="/prediction" method="post">
+                <div class="form-group">
+                    <label for="review">Enter Review:</label>
+                    <input type="text" class="form-control" name="review" id="review" value="{{ request.form.review }}">
+                </div>
+                <button type="submit" class="btn btn-primary btn-center">Predict Sentiment</button>
+            </form> <br>
+            <div class="text-center">
+                <h3>{{sentiment}} </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
