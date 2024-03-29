@@ -5,7 +5,7 @@ This application is built mainly using Flask Framework in python, HTML, CSS and 
 
 Sentiment Analysis: Users can input review and the program runs the input through the Machine Learning model and provides the sentiment below
 
-The application is deployed on AWS EC2 and can be accessed at http://35.180.192.97:5000/.
+The application is deployed on AWS EC2 and can be accessed at [http://52.47.109.118:5000/.](http://52.47.109.118:5000/)
 
 
 logs.py - Contains MLflow Implementation
