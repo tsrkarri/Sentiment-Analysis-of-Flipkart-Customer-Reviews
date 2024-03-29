@@ -8,6 +8,10 @@ Sentiment Analysis: Users can input review and the program runs the input throug
 The application is deployed on AWS EC2 and can be accessed at http://35.180.192.97:5000/.
 
 
+logs.py - Contains MLflow Implementation
+
+flow.py - Contains Prefect Implementation
+
 ![mlflow](https://github.com/tsrkarri/Sentiment-Analysis-of-Flipkart-Customer-Reviews/assets/111137356/a9118d33-d898-4ed7-9192-ee63f7fc6256)
 
 ![mlflow1](https://github.com/tsrkarri/Sentiment-Analysis-of-Flipkart-Customer-Reviews/assets/111137356/5f60400a-6ab6-4bb3-b890-0a230c3d07b1)
